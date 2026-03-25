@@ -1,0 +1,19 @@
+git config --global user.name "pan-taxi"
+
+git config --global user.email "413604799@qq.com"
+
+git config --global init.defaultBranch main，统一默认分支名为 main。
+
+C:\Users\pantaxi>git init
+Initialized empty Git repository in C:/Users/pantaxi/.git/
+
+C:\Users\pantaxi>git init d:/tool/git/my-first-project
+Initialized empty Git repository in D:/tool/git/my-first-project/.git/
+
+
+git remote add origin https://github.com/pan-taixi/my-first-project.git
+
+ ssh-keygen -t rsa -C “pan-taxi”
+
+
+ git clone git@github.com:pan-taixi/my-first-project.git
